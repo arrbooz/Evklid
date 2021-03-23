@@ -1,21 +1,13 @@
-const swiper = new Swiper('.swiper-container', {
-  // Optional parameters
-  direction: 'vertical',
-  loop: true,
+window.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('#burger').addEventListener('click', function() {
+        document.querySelector('#menu').classList.toggle('is-active')
 
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-  },
+    })
+})
 
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
-});
+$( function() {
+$( "#accordion" ).accordion({
+    'icons' : false,
+    'heightStyle' : 'content' 
+});    
+} );
