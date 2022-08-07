@@ -1,6 +1,6 @@
 ## evklid
 
 - construction company simple landing
-- html,scc,js
+- html, css, js
 - responsive
 
